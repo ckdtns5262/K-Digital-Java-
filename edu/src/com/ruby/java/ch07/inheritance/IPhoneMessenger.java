@@ -1,6 +1,6 @@
 package com.ruby.java.ch07.inheritance;
 
-public class IPhoneMessenger implements Messenger {
+public class IPhoneMessenger extends GraphicIOS implements Messenger {
 
 	public String getMessage() {
 		return "iPhone";
@@ -13,4 +13,7 @@ public class IPhoneMessenger implements Messenger {
 	public void clearMessage() {
 		System.out.println("좌우로 흔들어 문자열을 지웁니다");
 	}
+
+	
 }
+
